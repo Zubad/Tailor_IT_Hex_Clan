@@ -1,0 +1,31 @@
+{
+  "name": "tailor_it_hex_clan",
+  "version": "1.0.0",
+  "description": "A job market place for Tailors",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "node Backend/index",
+    "client": "npm start --prefix  frontend",
+    "dual": "concurrently \"npm run index\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zubad/Tailor_IT_Hex_Clan.git"
+  },
+  "author": "Zubad/Qasim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zubad/Tailor_IT_Hex_Clan/issues"
+  },
+  "homepage": "https://github.com/Zubad/Tailor_IT_Hex_Clan#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
