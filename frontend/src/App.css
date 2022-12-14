@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+.nn{
+    position: sticky;
+    top:0;
+    background-color: transparent;
+    z-index: 999;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    background-color: white;
+}
+.containerh{
+    width: 100%;
+}
+.col1{
+    display: flex;
+}
+#baricon{
+    visibility: hidden;
+    margin-top: 22px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.disactive{
+    display: none;
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    margin-top: 21px;
+    margin-left: -10px;
+}
+.logo img{
+    height: 36px;
+    width: 50px;
+}
+.searchBar{
+    margin-top: 4px;
+    padding-left: 25px;
+    display: flex;
+}
+.searchBarHide{
+    display: none;
+}
+.searchLogo{
+    position:absolute;
+    margin-top: 10px;
+    width: 18px;
+    margin-left: 7px
+}
+.btnn{
+    background-color: rgb(13, 150,81);
+    color: white;
+    height: 38px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: none;
+    padding: 0px 16px;
+    border-radius: 0 4px 4px 0;
+}
+.navigation{
+    margin-top: 26px;
+}
+ul{
+    display: flex;
+    margin-top: 13px;
+    list-style: none;
+}
+ul li{
+    padding-left: 14px;
+    margin-left: 9px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Helvetica";
+}
+.linkColor{
+    color: #62646a;
+}
+.disactiveLink{
+    color: white;
+}
+ul li .global{
+    padding: 5px;
+}
+.signInLink{
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.signInLink:hover{
+    color: #1dbf73;
+    text-decoration: none;
+}
+.bli{
+    margin-top: -6px;
+}
+.bgcolor{
+    background-color: blue;
+    height: 900px;
+}
+Form .mr-lg-0{
+    padding-left: 25px;
+    border-right: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+@media screen and (max-width:1200px){
+    .searchBar{display: none;}
+
+    #baricon{
+        visibility: visible;
+    }
+    .logo{
+        margin-left: 5px;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width:1100px){
+    .ll{
+        display: none;
+    }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (max-width:900px){
+    .sli{
+        display: none;
+    }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width:900px){
+    .tli{
+        display: none;
+    }
+    .slider{
+        margin-top: 5px;
+    }
+    #baricon{
+        color: rgb(58, 57, 57)
+    }
+    .disactiveLink{
+        color: rgb(56, 54, 54)
+    }
+    .disactive{
+        display: block;
+    }
+    .disactive img{
+        height: 30px;
+        margin-top: 20px
+    }
+    .nm{display: none;}
 }
-
-.App-link {
-  color: #61dafb;
+@media  screen and (max-width: 600px){
+    .signInLink{
+        display: none;
+    }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media  screen and (max-width: 600px){
+    .disactive{
+        height: 30px;
+        margin-top: 19px;
+        position: absolute;
+        right: 20%
+    }
+}
+.slider{
+    margin-top: -99px;
+}
+.slider .carousel-indicators{
+    display: none;
+}
+.slider .carousel-control-next{
+    display: none;
+}
+.slider .carousel-control-prev{
+    display: none;
 }
