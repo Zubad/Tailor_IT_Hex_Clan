@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Button, Row, Col, Form, FormControl } from "react-bootstrap";
 
+
 function Header() {
   const [navbar, setNavbar] = useState();
 
@@ -19,7 +20,7 @@ function Header() {
     <div className={navbar ? "nn active" : "nn"}>
       <div> 
         <Row className="containerh">
-          <Col className="col1">
+          <Col className="colOne">
             <FontAwesomeIcon
               icon={faBars}
               size="2px"
