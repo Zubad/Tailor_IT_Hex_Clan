@@ -82,9 +82,9 @@ function Header() {
               </a>
             </li>
             <li className={navbar ? "signInLink linkColor" : "disactiveLink"}>
-              Sign In
+              <a href='signin'>Sign In</a>
             </li>
-            <li classNmae="bli">
+            <li className="bli">
               <a href="/join">
                 <Button variant="success">Join</Button>{" "}
               </a>

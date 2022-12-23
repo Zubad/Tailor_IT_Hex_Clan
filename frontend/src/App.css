@@ -278,3 +278,125 @@ Form .mr-lg-0{
         font-size: 40px;
     }
 }
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  .logoForm {
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+  }
+  
+  .userMenu {
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+    border-bottom: solid 1px red;
+  }
+  
+  .userMenu ul {
+    padding: 10px;
+  }
+  .userMenu ul li {
+    margin-top: 15px;
+    display: inline;
+  }
+  
+  .userMenu ul li a {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+  }
+  
+  .userMenu ul li img {
+    margin-top: 18px;
+  }
+  
+  .userMenu ul li .userimg {
+    border-radius: 40%;
+  }
+  
+  .nbv {
+    display: flex;
+  }
+  .userDetails {
+    font-weight: 600;
+    background-color: #edf1f3;
+    padding: 20px;
+  }
+  .btnnn{
+    border: solid 3px rgb(128, 36, 36);
+  }
+  
+  .userDetails img {
+    border-radius: 40%;
+  }
+  .userDetails .userinfo {
+    background-color: blanchedalmond;
+    width: 27%;
+    padding: 10px;
+    line-height: 40px;
+  }
+  
+  .userDetails .userinfo .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(56, 123, 131);
+  }
+  .Creategig {
+    margin-top: 10px;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .mainnnn{
+    width: 100%;
+    overflow: hidden;
+  }
+  .creategig{
+    margin-top: 50px;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .bnm{
+    margin-top: 13px;
+  }
+  .Tworowborder{
+    border-style: groove;
+    border-color: darkgray;
+    border-width: 1px;
+  }
+  .borderrowone{
+    border-right: groove;
+    border-color: darkdray;
+    border-width: 1px;
+    left: 10px;
+  }
+  .radiobtn{
+    line-height: 30px;
+    
+  }

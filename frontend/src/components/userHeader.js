@@ -17,13 +17,13 @@ const UserHeader = () => {
               <a href="/user">Dashbord</a>
             </li>
             <li>
-              <a href="/signin">Message</a>
+              <a href="/">Message</a>
             </li>
             <li>
-              <a href="/signin">Order</a>
+              <a href="/">Order</a>
             </li>
             <li>
-              <a href="/signin">Gigs</a>
+              <a href="/gigs">Gigs</a>
             </li>
             <li>
               <a href="/signin">Analytics</a>

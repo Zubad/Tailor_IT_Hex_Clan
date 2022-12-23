@@ -1,5 +1,5 @@
 import React from 'react'
-import UserHeader from '../component/userHeader'
+import UserHeader from '../components/userHeader'
 import { Button,Card,ListGroup,Row,Col,Container } from 'react-bootstrap'
 
 const Gigs = () => {

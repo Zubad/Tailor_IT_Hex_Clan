@@ -14,8 +14,8 @@ const BuyerHeader = () =>{
                         <li><a href='/'>Orders</a></li>
                         <li><a href='/'>Analytics</a></li>
                         <li><a href='/'>Community</a></li>
-                        <li><a href='/postRequest'>Post a Request</a></li>
-                        <li><a href='/mypost'>My Post</a></li>
+                        <li><a href='postajob'>Post a Request</a></li>
+                        <li><a href='mypost'>My Post</a></li>
                     </ul>
                 </Col>
                 <Col sm='2'>
@@ -28,11 +28,11 @@ const BuyerHeader = () =>{
                             <NavDropdown.Item>
                                 Profile
                             </NavDropdown.Item>
+                            </LinkContainer>
                             <LinkContainer to='/'>
                                 <NavDropdown.Item>
                                     Logout
                                 </NavDropdown.Item>
-                            </LinkContainer>
                             </LinkContainer>
                         </NavDropdown>
                     </ul>
