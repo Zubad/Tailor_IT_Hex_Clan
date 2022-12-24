@@ -11,7 +11,7 @@ const Gigs = () => {
                 <Col sm="10">
                     <h1 className='font'>Gigs</h1>
                 </Col>
-                <Col><a href='/create-gig'><Button className='Creategig' variant='success'>Create a new gig</Button></a></Col>
+                <Col><a href='/creategigs'><Button className='Creategig' variant='success'>Create a new gig</Button></a></Col>
             </Row>
             <Card>
                 <ListGroup variant='flush'>

@@ -104,7 +104,7 @@ const Creategigs = () => {
                 <Row>
                   <Col sm="3">Search Tags</Col>
                   <Col className="bnm">
-                  {/* <Autocomplete 
+                  <Autocomplete 
                   multiple
                   id="tags-filled"
                   option={top10.map((option)=>option.title)}
@@ -114,8 +114,8 @@ const Creategigs = () => {
                       <Chip variant="outlined" label={option}{...getTagProps({index})}/>
                     ))
                   }
-                  // renderInput={(params)=(<TextField {...params} variant="filled" placeholder='Favorties'/>)}
-                  /> */}
+                  renderInput={(params)=>(<TextField {...params} variant="filled" placeholder='Favorties'/>)}
+                  />
                   </Col>
 
                 </Row>
