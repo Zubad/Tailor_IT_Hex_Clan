@@ -2,6 +2,7 @@ import express from 'express'
 import dotenv from "dotenv"
 import connectDB from './config/db.js'
 import gigRoutes from './routes/gigRoutes.js'
+import jobRoutes from './routes/jobRoutes.js'
 
 const app = express()
 app.use(express.json())
