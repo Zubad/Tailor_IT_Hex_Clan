@@ -12,7 +12,7 @@ export const Login = (email, password) => async(dispatch) => {
                 'content-type': 'application/json'
             }
         }
-        const {data} = await axios.post('https://63a6b143f8f3f6d4ab1040d5.mockapi.io/users', {email, password}, config)
+        const {data} = await axios.post('/user/login', {email, password}, config)
         dispatch({
             type: USER_LOGIN_SUCCESS,
             payload:data
@@ -22,7 +22,7 @@ export const Login = (email, password) => async(dispatch) => {
     catch(error){
         dispatch({
             type: USER_LOGIN_FAIL,
-            payload:error.response.data.message
+            payload:error.response.data.message,
         })
     }
     
@@ -45,7 +45,7 @@ export const Register = (name, email, password, buyer) => async (dispatch) =>{
                 "content-type": "application/json"
             }
         }
-        const {data} = await axios.post('https://63a6b143f8f3f6d4ab1040d5.mockapi.io/users',{name, email, password, buyer}, config)
+        const {data} = await axios.post('/user/register',{name, email, password, buyer}, config)
         dispatch({
             type: USER_REGISTER_SUCCESS,
             payload: data
