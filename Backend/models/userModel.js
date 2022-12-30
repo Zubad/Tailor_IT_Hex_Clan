@@ -14,7 +14,7 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    buyer:{
+    isBuyer:{
         type: Boolean,
         default: false,
     },
