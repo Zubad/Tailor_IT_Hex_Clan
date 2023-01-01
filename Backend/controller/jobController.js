@@ -1,6 +1,6 @@
-import JobSchema from "../models/jobModel";
+import JobSchema from "../models/jobModel.js";
 import asyncHandler from "express-async-handler";
-import UserProfileSchema from "../models/profileModel";
+import UserProfileSchema from "../models/profileModel.js";
 
 const Addjob = asyncHandler(async(req, res)=>{
     const {id, maintitle, category, category2, days, price} = req.body;

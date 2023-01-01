@@ -1,6 +1,6 @@
 import express from "express";
 
-import { BuyerRelatedJob } from "../controller/jobController";
+import { BuyerRelatedJob } from "../controller/jobController.js";
 
 
 

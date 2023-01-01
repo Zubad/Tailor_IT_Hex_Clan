@@ -1,5 +1,5 @@
 import express from "express";
-import { addgig, getgigbyid, Getgigs } from "../controller/gigControler";
+import { addgig, getgigbyid, Getgigs } from "../controller/gigControler.js";
 
 
 

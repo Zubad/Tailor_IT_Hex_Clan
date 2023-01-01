@@ -1,6 +1,6 @@
 import asyncHandler from "express-async-handler";
-import UserSchema from "../models/userModel";
-import generateToken from "../utills/jsonwebtokens";
+import UserSchema from "../models/userModel.js";
+import generateToken from "../utills/jsonwebtokens.js";
 
 
 // authUser, getUserProfile, registerUser

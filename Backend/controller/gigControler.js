@@ -1,4 +1,4 @@
-import GigsSchema from "../models/gigsModel";
+import GigsSchema from "../models/gigsModel.js";
 import asyncHandler from "express-async-handler";
 
 const Getgigs = asyncHandler(async(req, res)=>{

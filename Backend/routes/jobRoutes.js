@@ -1,6 +1,6 @@
 import express from "express";
-import { addgig, getgigbyid, Getgigs } from "../controller/gigControler";
-import { Addjob, getjobbyuser } from "../controller/jobController";
+import { addgig, getgigbyid, Getgigs } from "../controller/gigControler.js";
+import { Addjob, getjobbyuser } from "../controller/jobController.js";
 
 
 

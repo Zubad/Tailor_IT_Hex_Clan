@@ -5,8 +5,8 @@ import gigRoutes from './routes/gigRoutes.js'
 import jobRoutes from './routes/jobRoutes.js'
 import getJobRoutes from './routes/getJobRoutes.js'
 import userRoutes from './routes/userRoutes.js'
-import path from 'path'
-import uploadRoutes from './routes/uploadRoutes.js';
+// import path from 'path'
+// import uploadRoutes from './routes/uploadRoutes.js';
 
 
 const app = express()
@@ -22,9 +22,9 @@ app.use('/gig', gigRoutes);
 app.use('postjob', jobRoutes);
 app.use('/getjob', getJobRoutes)
 app.use('/user', userRoutes)
-app.use('/upload', uploadRoutes);
-const __dirname= path.resolve()
-app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
+// app.use('/upload', uploadRoutes);
+// const __dirname= path.resolve()
+// app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 
 app.use((req, res, next) => {
     const error = new Error('not found')
@@ -40,15 +40,6 @@ app.use((req, res, next) => {
     })
 })
 
-
-
-
-
-
-
-
-
-
-
-const PORT = process.env.PORT || 5000
+// process.env.PORT || 
+const PORT = 5000
 app.listen(PORT, console.log("the server is running at port", PORT))
